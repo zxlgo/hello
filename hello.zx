@@ -1,0 +1,12 @@
+namespace hello;
+
+// helloer is a small definition
+// that can print hello to the console
+define helloer {
+	fn sayHello() {
+		println("Hello, World!");
+	}
+}
+
+// Helloer is an instance of helloer
+const Helloer = helloer();
